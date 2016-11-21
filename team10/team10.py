@@ -7,10 +7,9 @@
 ####
 
 team_name = 'Team 10'
-strategy_name = 'Collude 90% unless betrayed within last 10 rounds.'
+strategy_name = 'Weight likelihood of betrayal and match'
 strategy_description = '''
-Betray if ever betrayed.
-If I haven't been betrayed yet, I'll betray starting with the 100th round.
+Weight likelihood of betrayal and match. Use random until enough data is available to make calculation.
 '''
 
 import random
